@@ -189,4 +189,58 @@ footer {
         transform: translateY(0);
     }
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+}
+
+header {
+    background: #002147;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-section {
+    background: linear-gradient(135deg,#002147,#004080);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.renovation-block {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.renovation-block img {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.donation-area {
+    background: #002147;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+button {
+    padding: 12px 30px;
+    background: gold;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
